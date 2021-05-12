@@ -1,0 +1,33 @@
+
+alias code.="code ."
+alias cd.="cd .."
+alias cd..="cd ../.."
+
+
+#docker
+alias d='docker'
+alias db='docker build -t'
+alias drit='docker run --rm -i -t'
+
+#kubectl
+alias k='kubectl'
+alias kgp="kubectl get pods"
+alias kgd="kubectl get deployments"
+alias kgs="kubectl get services"
+alias kgsts="kubectl get sts"
+alias kging="kubectl get ingress"
+alias kgn="kubectl get nodes"
+alias kgcm="kubectl get configmaps"
+
+alias kgpn="kubectl get pods -n"
+alias kgdn="kubectl get deployments -n"
+alias kgsn="kubectl get services -n"
+alias kgstsn="kubectl get sts -n"
+alias kgingn="kubectl get ingress -n"
+alias kgcmn="kubectl get configmaps -n"
+
+alias kdp="kubectl delete pod"
+alias kdd="kubectl delete deployment"
+alias kds="kubectl delete service"
+alias kdi="kubectl delete ingress"
+alias kdn="kubectl delete namespace"
